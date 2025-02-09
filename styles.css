@@ -1,0 +1,39 @@
+body {
+    background: lightgray;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    padding: 15px;
+    background: white;
+}
+header h1 {
+    margin: 0%;
+}
+.post  {
+    background: white;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.post img {
+    width: 100%;
+}
+.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+.post .post-header div:last-child{
+    display: inline-block;
+    width: 18%;
+    text-align: right;
+    padding: 2px;
+    color: grey
+}
+.post h2, p {
+    padding: 10px;
+    margin: 0%;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
